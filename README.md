@@ -12,15 +12,15 @@ Tradingviewから送信したWebhookを当サイトで受け取り、売買情�
  
 # Requirement
  
-ccxt==1.82.74
-Flask==2.1.2
-gunicorn==20.1.0
+ccxt==1.82.74<br>
+Flask==2.1.2<br>
+gunicorn==20.1.0<br>
  
 # Installation
 
-pip install flask
-pip install ccxt
-pip install gunicorn
+pip install flask<br>
+pip install ccxt<br>
+pip install gunicorn<br>
  
 # Usage
   
