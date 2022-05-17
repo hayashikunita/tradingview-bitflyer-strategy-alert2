@@ -39,7 +39,9 @@ def webhook():
         amount='0.01',
         price='0',
         # params = { "product_code" : settings.product_code })
-        params = { "product_code" : "BTC_JPY" })
+        # params = { "product_code" : "BTC_JPY" })
+        params = { "product_code" : "FX_BTC_JPY" }
+    )
 
     order_response =  order
 
@@ -56,7 +58,7 @@ def webhook():
             "message": "order failed"
         }
 
-
-if __name__ == '__main__':
-    app.debug = True
-    app.run(host='0.0.0.0')
+# 確認用
+# if __name__ == '__main__':
+#     app.debug = True
+#     app.run(host='0.0.0.0')
